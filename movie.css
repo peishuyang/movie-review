@@ -1,0 +1,103 @@
+div#top {
+	text-align: center;
+	background-image:url("../images/rancidbannerbg.png");
+	background-repeat: repeat;
+}
+h1{
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+	font-size: 24pt;
+	font-family:Georgia, Times New Roman;
+}
+div#total {
+	margin-left: auto;
+	margin-right: auto;
+ 	width: 800px;
+	border: 3px;
+	border-radius: 20px;
+	box-shadow: 5px 5px #999999;
+	background-color: #A2B964;
+	overflow: hidden;
+}
+div#right {
+	float:right;
+	width:250px;	
+	font-size: 10pt;
+	font-family:Arial, Helvetica;
+	font-weight: normal;
+	
+}
+dl{
+	padding-left: 10pt;
+
+}
+dt{
+	font-weight: bold;
+}
+div#left{
+	float:left;
+	width:550px;
+	font-size: 10pt;
+	font-family:Arial, Helvetica;
+	font-weight: normal;
+	background-color: #EEEEEE;
+}
+div#left1{	
+	background-image:url("../images/rottenlargebg.png");
+	height: 83px;
+	font-size: 48pt;
+	color:red;
+	font-weight: bold;
+}
+#left1 img {
+	height:83px;
+	float:left;
+}
+p.quotes{	
+	margin-left:8px;
+	padding:5px;
+	border:2px solid #CCCCCC;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	margin-right: 8px;
+}
+div#left2{
+	width: 47%;
+	float:left;
+}
+div#left3{
+	float:right;
+	width: 47%;
+}
+#left2 img{
+	float:left;
+}
+#left3 img{
+	float:left;
+}
+#add{
+	margin-left: auto;
+ 	margin-right: auto;
+  	width: 200px;
+  	box-shadow: 5px 5px 5px gray;
+  	border-radius: 20px;
+  	overflow: hidden;
+  	background-color: #FFFFFF;
+  	text-align: center;
+}
+a.link {
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14pt;
+	color: black;
+  	padding: 2px;
+}
+#bottom{
+	clear: both;
+	text-align: center;
+}
+#goback{
+	position: fixed;
+	top:60px;
+	right:10px;
+}

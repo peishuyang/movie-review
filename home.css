@@ -1,0 +1,119 @@
+/*///// style for the body elements /////*/
+
+body {
+	background-image: url("../images/moviebg.png");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Top banner */
+
+#banner {
+	background-image: url("../images/rancidbannerbg.png");
+	background-repeat: repeat;
+	text-align: center;
+}
+
+/*///// heading title /////*/
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 32pt;
+	font-weight: bold;
+	/* text-shadow: 3px 3px #999999; */
+	text-align: center;
+}
+
+/*///// Content page /////*/
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 800px;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #A2B964;
+}
+#add{
+	margin-left: auto;
+ 	margin-right: auto;
+  	width: 200px;
+  	box-shadow: 5px 5px 5px gray;
+  	border-radius: 20px;
+  	overflow: hidden;
+  	background-color: #FFFFFF;
+  	text-align: center;
+}
+
+ul {
+
+	list-style-type: none;
+}
+
+li {
+/*	
+	background-image: url("../images/fresh.gif");
+	background-repeat: no-repeat;
+  	padding: 5px 0px 20px 30px;
+    reset styles (optional):
+*/
+  	list-style: none;
+  	margin-top: 10px;
+}
+
+li img {
+	width: 50px;
+	vertical-align: middle;
+}
+
+a.link {
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14pt;
+	color: black;
+  	padding: 2px;
+}
+
+a.link:hover {
+	box-shadow: 2px 2px 2px gray;
+  	border: dotted 1px gray;
+  	background-image: url("../images/moviebg.png");
+}
+
+#addlink {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#addlink a {
+	text-decoration: none;
+	color: inherit;
+	font-size:14pt;
+	font-weight: bold;
+	padding: 5px;
+	box-shadow: 4px 4px 4px gray;
+  	border: dotted 1px gray;
+  	border-radius: 10px;
+  	background-image: url("../images/moviebg.png");
+}
+
+#footer {
+	background-image: url("../images/rancidbannerbg.png");
+	color: #DDE2D2;
+	font-weight: bold;
+	background-repeat: repeat-x;
+	width: 100%;
+	text-align: right;
+	padding: 5px;
+	position: fixed;
+	bottom:0;
+	right:0;
+}
+
+#footer img {
+	vertical-align: middle;
+}
